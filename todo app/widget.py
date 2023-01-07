@@ -1,7 +1,9 @@
-from PySide6.QtCore import Qt, QTime, QTimer
+from PySide6.QtCore import QTime, QTimer
 from PySide6.QtWidgets import QApplication, QWidget, QMessageBox, QDialog, QLabel, QPushButton, QVBoxLayout
-import time
+import time, sqlite3
 from widget_ui import Ui_Widget
+from PyQt5.QtMultimedia import QMediaContent, QMediaPlayer
+from PyQt5.QtCore import QUrl
 
 
 class Widget(QWidget, Ui_Widget):
@@ -31,6 +33,18 @@ class Widget(QWidget, Ui_Widget):
         self.timer.timeout.connect(self.update_time)
         self.elapsed_time = QTime(0, 0)
 
+        self.conn = sqlite3.connect('todos.db')
+        self.cursor = self.conn.cursor()
+        self.cursor.execute('''CREATE TABLE IF NOT EXISTS todos (task text)''')
+
+        self.cursor.execute('''SELECT task FROM todos''')
+        todos = self.cursor.fetchall()
+        for todo in todos:
+            self.task_list_widget.addItem(todo[0])
+
+        self.notification_filename = 'notification.wav'
+        self.player = QMediaPlayer()
+        self.player.setMedia(QMediaContent(QUrl.fromLocalFile(self.notification_filename)))
 
     def add_task(self):
         task = self.task_line_edit.text()
@@ -39,14 +53,20 @@ class Widget(QWidget, Ui_Widget):
             self.task_list_widget.addItem(task)
             self.task_line_edit.clear()
 
+            self.cursor.execute('''INSERT INTO todos (task) VALUES (?)''', (task,))
+            self.conn.commit()
+
     def remove_task(self):
         task = self.task_list_widget.currentRow()
+        task_text = self.task_list_widget.item(task).text()
         self.task_list_widget.takeItem(task)
         self.current_task_label.clear()
 
+        self.cursor.execute('''DELETE FROM todos WHERE task=?''', (task_text,))
+        self.conn.commit()
+
     def play(self):
         self.time_to_run = self.minute_spinbox.value()
-
 
         if self.time_to_run != 0:
             self.play_button.setEnabled(False)
@@ -63,9 +83,6 @@ class Widget(QWidget, Ui_Widget):
             self.elapsed_time_label.setText(f'{beginning_time_hr}:{beginning_time_min}:00')
 
             self.timer.start()
-
-
-
 
     def set_current_label(self):
         task = self.task_list_widget.currentItem().text()
@@ -101,8 +118,6 @@ class Widget(QWidget, Ui_Widget):
             self.dialog_box.info_label = QLabel('Time is up!')
             self.dialog_box.ok_button = QPushButton("OK")
 
-            # self.dialog_box.ok_button.clicked.connect(self.accept)
-
             # Create a vertical layout and add the label and button
             self.layout = QVBoxLayout()
             self.layout.addWidget(self.dialog_box.info_label)
@@ -111,11 +126,12 @@ class Widget(QWidget, Ui_Widget):
             self.dialog_box.setLayout(self.layout)
             self.dialog_box.show()
             self.timer.stop()
-            print('time is up')
+            self.player.play()
 
     def pause(self):
         self.timer.stop()
         self.play_button.setEnabled(True)
+
     def stop(self):
         self.progressBar.setValue(0)
         self.timer.stop()
