@@ -14,6 +14,7 @@ class Widget(QWidget, Ui_Widget):
         self.setWindowTitle('EA Timer')
 
         self.add_button.clicked.connect(self.add_task)
+        self.task_line_edit.returnPressed.connect(self.add_task)
         self.remove_button.clicked.connect(self.remove_task)
 
         self.play_button.clicked.connect(self.play)
