@@ -4,5 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="SQLite3-learning" />
+    <orderEntry type="module" module-name="pda-gui" />
   </component>
 </module>

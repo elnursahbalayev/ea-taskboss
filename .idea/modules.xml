@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" filepath="$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ea-taskboss.iml" filepath="$PROJECT_DIR$/.idea/ea-taskboss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pda-gui/.idea/pda-gui.iml" filepath="$PROJECT_DIR$/../pda-gui/.idea/pda-gui.iml" />
     </modules>
   </component>
 </project>
