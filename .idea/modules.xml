@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" filepath="$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../afsana_ds/.idea/afsana_ds.iml" filepath="$PROJECT_DIR$/../afsana_ds/.idea/afsana_ds.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ea-taskboss.iml" filepath="$PROJECT_DIR$/.idea/ea-taskboss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fiber-optic/.idea/fiber-optic.iml" filepath="$PROJECT_DIR$/../fiber-optic/.idea/fiber-optic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../full-stack-data-science/.idea/full-stack-data-science.iml" filepath="$PROJECT_DIR$/../full-stack-data-science/.idea/full-stack-data-science.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pda-gui/.idea/pda-gui.iml" filepath="$PROJECT_DIR$/../pda-gui/.idea/pda-gui.iml" />
     </modules>
   </component>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0b119c7-a915-4a2d-85e0-010cb4721bb9" name="Changes" comment="new files are added">
+      <change afterPath="$PROJECT_DIR$/../SQLite3-learning/kivy_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../afsana_ds/.idea/afsana_ds.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../afsana_ds/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../afsana_ds/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../afsana_ds/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fiber-optic/.idea/fiber-optic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fiber-optic/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fiber-optic/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fiber-optic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full-stack-data-science/.idea/full-stack-data-science.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full-stack-data-science/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full-stack-data-science/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../full-stack-data-science/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SQLite3-learning/.idea/SQLite3-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ea-taskboss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ea-taskboss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K3ItjvHF2zaJGS0IoxQ2BE8pxI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp Envy/PycharmProjects/ea-taskboss/todo app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp Envy\PycharmProjects\ea-taskboss\todo app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0b119c7-a915-4a2d-85e0-010cb4721bb9" name="Changes" comment="" />
+      <created>1673197061203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673197061203</updated>
+      <workItem from="1673197062825" duration="186000" />
+      <workItem from="1673198627956" duration="2293000" />
+      <workItem from="1673235666477" duration="7041000" />
+      <workItem from="1673248413352" duration="318000" />
+      <workItem from="1673275815230" duration="2927000" />
+      <workItem from="1673354304682" duration="240000" />
+      <workItem from="1673354752344" duration="1896000" />
+      <workItem from="1673421980016" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="new files are added">
+      <created>1673246228910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673246228910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new files are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files are added" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ea_taskboss$01.coverage" NAME="01 Coverage Results" MODIFIED="1673245509925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../SQLite3-learning" />
+    <SUITE FILE_PATH="coverage/ea_taskboss$app.coverage" NAME="app Coverage Results" MODIFIED="1673246153687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../SQLite3-learning" />
+    <SUITE FILE_PATH="coverage/ea_taskboss$kivy_learning.coverage" NAME="kivy_learning Coverage Results" MODIFIED="1673357109271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../SQLite3-learning" />
+    <SUITE FILE_PATH="coverage/ea_taskboss$kivy.coverage" NAME="kivy Coverage Results" MODIFIED="1673354448160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../SQLite3-learning" />
+  </component>
+</project>
